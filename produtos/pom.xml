@@ -14,6 +14,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <repositories>
+        <!--
+       Link para o projeto do LibreTranslate contendo as anotações de repositório e dependência
+       https://github.com/dynomake/libretranslate-java
+       -->
         <repository>
             <id>dynomakeRepository</id>
             <url>https://maven.dynomake.it/releases</url>
@@ -25,9 +29,6 @@
             <artifactId>opencsv</artifactId>
             <version>5.12.0</version>
         </dependency>
-        <!--
-        Link para o projeto do LibreTranslate contendo as anotações de repositório e dependência
-        -->
         <dependency>
             <groupId>space.dynomake</groupId>
             <artifactId>libretranslate-java</artifactId>
